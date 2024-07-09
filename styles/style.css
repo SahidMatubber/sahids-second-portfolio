@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* header related style */
 .nav-title {
     font-size: 45px;
     font-weight: 800;
@@ -26,6 +27,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -41,4 +43,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: #302f2f;
+}
+
+/* header related style */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
 }
