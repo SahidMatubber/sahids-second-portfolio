@@ -1,5 +1,10 @@
 body {
     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* header related style */
@@ -21,6 +26,17 @@ body {
     font-weight: 700;
     font-size: 25px;
     padding: 15px 35px;
+}
+
+.btn-primary-exceptional {
+    border: 1px solid #ff6f00;
+    border-radius: 5px;
+    color: #ff6f00;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 35px;
+    background-color: #fff8f3;
+
 }
 
 nav {
@@ -48,14 +64,74 @@ nav a {
 /* header related style */
 .header {
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-pic {
     width: 500px;
+    padding-right: 50px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* banner style done  */
+/* About section style  */
+.About {
+    background-color: #fff8f3;
+    border: none;
+    border-radius: 10px;
+    margin: 130px 0;
+    padding: 130px;
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-inf {
+    text-align: center;
 }
