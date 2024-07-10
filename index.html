@@ -33,13 +33,14 @@
                 <h1 class="banner-title">Sahid Arman</h1>
                 <p class="banner-description"> Shot what able cold new see hold.Friendly as an betrayed formerly <br>
                     he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary"><i class="fa-solid fa-download" style="color: #ffffff;"></i> Donwload
+                <button class="btn-primary"><i class="fa-solid fa-download" style="color: #ffffff;"></i> Download
                     CV</button>
-                <button class="btn-primary-exceptional"><i class="fa-solid fa-phone" style="color: #ff6f00;"></i>
-                    Contact</button>
+                <button class="btn-primary-exceptional" onclick="scrollToFooter()"><i class="fa-solid fa-phone"
+                        style="color: #ff6f00;"></i> Contact</button>
             </div>
-            <img class="profile-pic" src="images/hardy.png" alt="">
-        </div>
+            <div>
+                <img class="profile-pic" src="images/hardy.png" alt="">
+            </div>
     </Header>
     <main>
         <section class="About">
@@ -197,7 +198,8 @@
                     CV</button></div>
         </section>
     </main>
-    <footer>
+    <!-- Footer section  -->
+    <footer id="footer">
         <div class="footer-column">
             <h3 class="f-section-title">Let's Connect</h3>
             <p class="f-section-description">Please fill out the form on this section to contact with me or call between
@@ -219,6 +221,11 @@
         </div>
         </div>
     </footer>
+    <script>
+        function scrollToFooter() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 
 </html>
