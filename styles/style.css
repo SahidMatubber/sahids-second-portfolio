@@ -197,3 +197,44 @@ main {
     top: 2604px;
     bottom: 1477px;
 }
+
+/* footer related style  */
+footer {
+    display: flex;
+    background: rgb(255, 248, 243);
+    padding: 130px 130px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+    text-align: left;
+}
+
+.f-section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    width: 461px;
+    height: 20px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.social-links a {
+    margin-left: 24px;
+}
